@@ -61,4 +61,4 @@ Each part in finer detail:
   variable in the data frame.
   Some additional formating is applied to ensure the names are descriptive and the Data frame does not contain any 
   unnecessary or duplicate information, thus keeping the data frame tidy.
-  
+  The script uses then the write.table() function in order to create a "Submit.txt" with the new tidy data set.  
