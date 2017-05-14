@@ -139,6 +139,8 @@
   ## --- Adjusting the first 2 coloumn name
   names(AveragesData) <- gsub(pattern = "GroupBy", replacement = "Group By ", names(AveragesData))
   
+  ## --- Writing the data
+  write.table(AveragesData,file = "Submit.txt")
   
   
   
